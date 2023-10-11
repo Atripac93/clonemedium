@@ -4,6 +4,7 @@ body{
 .container{  
  display: flex;
  justify-content: space-between;
+ margin-top: 20px;
 
 }
 .iconenabar{
@@ -20,6 +21,7 @@ body{
 }
 .userprofile{
     border-radius: 10px;
+    background-color: orange;
 }
 .ricerca{
     border-radius: 10px;
@@ -46,12 +48,13 @@ body{
 .carta{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .immaginecarta img{
     width: 20px;
     display: flex;
-    align-items: ;
+    align-items: center;
 }
 .titolo{
     display: flex;
@@ -68,10 +71,78 @@ ul{
     display: flex;
     align-items: center;
 }
-.carta{
-    margin-top: 20px;
-}
 .imgucelo{
 width: 200px;
 height: 100px;
 }
+.iconenavbar{
+    display: flex;
+    align-items: center;
+}
+.final{
+    display: flex;
+    align-items: baseline;
+}
+.t{
+    border-left: 1px solid gray;
+    height: 1500px;
+    position: absolute;
+    left:70%;
+    margin-left: 15px;
+    top:100px;
+}
+.imgdx{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#twitter{
+    width: 50px;
+}
+.insta{
+    width: 50px;
+}
+.discover{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    margin-right: -50px;
+    margin-top: 20px;
+
+}
+.imgtex{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 670px;
+    border-radius: 5px;
+    flex-direction: row-reverse;
+}
+.imgtex img{
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+}
+.maybe{
+    display: flex;
+    justify-content: flex-end;
+    color:darkgrey;
+    font-size: larger;
+    margin-top: 15px;
+}
+.linies{
+   width: 27%;
+   margin-left: 630px;
+   
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 610px;
+    
+}
+

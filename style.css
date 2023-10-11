@@ -38,10 +38,16 @@ body{
     width: 20px;
     margin-top: 30px;
 }
+.autore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .carta{
     display: flex;
     flex-direction: column;
 }
+
 .immaginecarta img{
     width: 20px;
     display: flex;
@@ -62,4 +68,10 @@ ul{
     display: flex;
     align-items: center;
 }
-.ion-ico
+.carta{
+    margin-top: 20px;
+}
+.imgucelo{
+width: 200px;
+height: 100px;
+}
